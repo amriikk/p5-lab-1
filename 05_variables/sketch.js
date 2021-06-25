@@ -17,8 +17,8 @@ function draw() {
     background(backgroundcol);
     translate(width / 2, height / 2);
     // TRY CHANGING the following three variables:
-    let length = 1;
-    let angle = 95;
+    let length = 20;
+    let angle = 45;
     let loops = 250;
 
     for(var i = 0; i < loops; i++) {
