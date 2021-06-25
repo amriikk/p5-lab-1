@@ -4,7 +4,7 @@
 
 // Example 1-5: Zoog
 function setup() {
-    createCanvas(480, 270);
+    createCanvas(displayWidth, displayHeight);
     ellipseMode(CENTER);
     rectMode(CENTER); 
   }
@@ -15,11 +15,11 @@ function setup() {
   
     // Body
     stroke(0);
-    fill(150);
+    fill('skyblue');
     rect(240, 145, 20, 100);
   
     // Head
-    fill(255);
+    fill('lime');
     ellipse(240, 115, 60, 60); 
   
     // Eyes
@@ -30,5 +30,10 @@ function setup() {
     // Legs
     stroke(0);
     line(230, 195, 220, 205);
-    line(250, 195, 260, 205); 
+    line(250, 195, 260, 205);
+
+    // Hands
+    stroke(0);
+    line(230, 145, 220, 155);
+    line(250, 145, 260, 155);
   }
