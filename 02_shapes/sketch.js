@@ -3,12 +3,12 @@
 
 function setup() {
     createCanvas(480, 270);
-    stroke('black'); 
-    fill('green');
+    stroke('navy'); 
+    fill('skyblue');
   }
   
   function draw() {
     background(255);
-    rect(50,50,75,100);
-    ellipse(60,60,100,100);
+    rect(30,20,75,100);
+    ellipse(160,160,100,100);
   }
