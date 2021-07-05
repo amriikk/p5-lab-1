@@ -6,7 +6,7 @@ var d = 125; // 130
 
 function setup() {
     // TRY CHANGING the following variable:
-    backgroundcol = color(245, 224, 66);
+    backgroundcol = color(115, 125, 100);
     createCanvas(650, 700);
     stroke(145, 66, 173);
     noFill();
@@ -19,7 +19,7 @@ function draw() {
     // TRY CHANGING the following three variables:
     let length = 20;
     let angle = 45;
-    let loops = 250;
+    let loops = 240;
 
     for(var i = 0; i < loops; i++) {
         rotate(angle);
